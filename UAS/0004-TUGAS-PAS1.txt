@@ -1,0 +1,37 @@
+Script started on Mon Jun  8 20:33:21 2020
+jacob.marulitua@badak:~$ PS1="$ "
+$ echo $GitHubUser
+jacobstmrg
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-203400-0387-jacob.marulitua/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-203403-e9ce-jacob.marulitua/> echo -e $CEKSAYA
+jacobstmrg ZCZCSCRIPTSTART 200601-024531 jacobstmrg 
+ jacobstmrg jacobstmrg 200601-024604-507c-jacob.marulitua/ 200601-024604 SEQOK SUMOK 507cd954 
+ jacobstmrg jacobstmrg 200601-024609-6fb4-jacob.marulitua/ 200601-024609 SEQOK SUMOK 6fb4b972 
+ jacobstmrg jacobstmrg 200601-024824-04c8-jacob.marulitua/ 200601-024824 SEQOK SUMOK 04c8f231 
+ jacobstmrg jacobstmrg 200601-024836-aa76-jacob.marulitua/ 200601-024836 SEQOK SUMOK aa7634f8 
+ jacobstmrg ZCZCSCRIPTSTOP 200601-024931 SEQOK 
+
+200608-203420-cb94-jacob.marulitua/> echo -e $CEKSEBELA1
+jacobstmrg ZCZCSCRIPTSTART 200605-111231 JahnsMichael 
+ jacobstmrg JahnsMichael 200605-231337-0d84-key/ 200605-231337 SEQOK SUMOK 0d84679a 
+ jacobstmrg JahnsMichael 200605-231411-11a6-key/ 200605-231411 SEQOK SUMOK 11a67768 
+ jacobstmrg JahnsMichael 200605-231415-4af0-key/ 200605-231415 SEQOK SUMOK 4af012bd 
+ jacobstmrg JahnsMichael 200605-231427-e3c3-key/ 200605-231427 SEQOK SUMOK e3c3441d 
+ jacobstmrg ZCZCSCRIPTSTOP 200605-111447 SEQOK 
+
+200608-203437-552a-jacob.marulitua/> echo -e $CEKSEBELA2
+jacobstmrg ZCZCSCRIPTSTART 203005-154811 jonathanfilbert 
+ jacobstmrg jonathanfilbert 200530-154843-7c91-UAS/ 200530-154843 SEQOK SUMOK 7c910b70 
+ jacobstmrg jonathanfilbert 200530-154851-5979-UAS/ 200530-154851 SEQOK SUMOK 5979b03f 
+ jacobstmrg jonathanfilbert 200530-154855-65a6-UAS/ 200530-154855 SEQOK SUMOK 65a6ba1b 
+ jacobstmrg jonathanfilbert 200530-154900-295a-UAS/ 200530-154900 SEQOK SUMOK 295a68ee 
+ jacobstmrg ZCZCSCRIPTSTOP 200530-154906 SEQOK 
+
+200608-203453-7d0f-jacob.marulitua/> exit
+exit
+
+Script done on Mon Jun  8 20:34:59 2020
