@@ -4,4 +4,5 @@
 <p> Self-motivated and highly reliable undergraduate Information System student with leadership capabilities, who likes to take initiative and seek out new challenges.</p>
 <a href="https://jacobstmrg.github.io/os201/URLs/"> Operating System URLs </a>
 <br>
+<br>
   <img src="coding.jpg" width="250">
