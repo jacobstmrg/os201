@@ -1,0 +1,56 @@
+Script started on Mon Jun  8 15:30:31 2020
+PS1="$ "
+echo $GitHubUserjacob.marulitua@badak:~$ PS1="$ "
+$ echo $GitHubUser
+jacobstmrg
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-153208-6257-jacob.marulitua/> ls -F
+0000-mypub.txt       Demos/       W04-text.txt  myprivatekey.asc
+0001-mytest.txt      SHA1SUM      a.out*        quizjacob.c
+0002-mytest.txt.asc  SHA1SUM.asc  coba.txt      quiznyajacob*
+0003-CEK-PAS0.txt    W04-log.txt  mykey.asc
+200608-153238-78a3-jacob.marulitua/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-153357-a503-jacob.marulitua/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-153434-e40d-jacob.marulitua/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Jacob Marulitua Ido Situmorang (OS201 C 1806185361 jacobstmrg Jacob Marulitua Ido Situmorang) <jacobzc77@gmail.com>"
+4096-bit RSA key, ID 9DD4450E, created 2020-05-31
+
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+gpg-agent[24421]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: signing failed: Operation cancelled
+^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B    
+
+200608-154014-b4cd-jacob.marulitua/> 
+200608-154040-53fb-jacob.marulitua/> 
+200608-154102-7a34-jacob.marulitua/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Jacob Marulitua Ido Situmorang (OS201 C 1806185361 jacobstmrg Jacob Marulitua Ido Situmorang) <jacobzc77@gmail.com>"
+4096-bit RSA key, ID 9DD4450E, created 2020-05-31
+
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+200608-154852-baac-jacob.marulitua/> 
+
+gpg2 --verify SHA1SUyM.asc
+200608-154920-7eb3-jacob.marulitua/> 
+200608-154946-884d-jacob.marulitua/> gpg2 --verify SHA1SUyM.asc
+gpg: can't open `SHA1SUyM.asc': No such file or directory
+gpg: verify signatures failed: No such file or directory
+200608-155032-7ec2-jacob.marulitua/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 15:46:37 2020 WIB using RSA key ID 9DD4450E
+gpg: Good signature from "Jacob Marulitua Ido Situmorang (OS201 C 1806185361 jacobstmrg Jacob Marulitua Ido Situmorang) <jacobzc77@gmail.com>" [ultimate]
+200608-160458-fdcd-jacob.marulitua/> exit
+exit
+
+Script done on Mon Jun  8 16:06:07 2020
