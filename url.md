@@ -4,7 +4,7 @@ permalink: /URLs/
 <body>
   <h1> Operating System URLs </h1>
   <br>
-  <img src="computer.png" width="250">
+  <img src="coding.jpg" width="250">
   <br>
   <ul>
     <li> <a href="https://whatis.techtarget.com/definition/operating-system-OS"> What is an Operating System (OS)? </a> </li>
