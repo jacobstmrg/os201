@@ -6,3 +6,5 @@
 <br>
 <br>
   <img src="coding.jpg" width="250">
+<br>
+<p> *the purpose of this site is to complete Operating System's final exam* </p>
