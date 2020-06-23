@@ -1,5 +1,5 @@
 Script started on Mon Jun  8 20:33:21 2020
-jacob.marulitua@badak:~$ PS1="$ "
+]0;jacob.marulitua@badak: ~jacob.marulitua@badak:~$ PS1="$ "
 $ echo $GitHubUser
 jacobstmrg
 $ echo $PSTAMP
@@ -23,7 +23,7 @@ jacobstmrg ZCZCSCRIPTSTART 200605-111231 JahnsMichael
  jacobstmrg JahnsMichael 200605-231427-e3c3-key/ 200605-231427 SEQOK SUMOK e3c3441d 
  jacobstmrg ZCZCSCRIPTSTOP 200605-111447 SEQOK 
 
-200608-203437-552a-jacob.marulitua/> echo -e $CEKSEBELA2
+200608-203437-552a-jacob.marulitua/> echo-e[K[K -e $CEKSEBELA2
 jacobstmrg ZCZCSCRIPTSTART 203005-154811 jonathanfilbert 
  jacobstmrg jonathanfilbert 200530-154843-7c91-UAS/ 200530-154843 SEQOK SUMOK 7c910b70 
  jacobstmrg jonathanfilbert 200530-154851-5979-UAS/ 200530-154851 SEQOK SUMOK 5979b03f 
