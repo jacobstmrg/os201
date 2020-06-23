@@ -1,5 +1,5 @@
 Script started on Mon Jun  1 02:45:31 2020
-jacob.marulitua@badak:~$ PS1="$ "
+]0;jacob.marulitua@badak: ~jacob.marulitua@badak:~$ PS1="$ "
 $ echo $GitHubUser
 jacobstmrg
 $ echo $PSTAMP
@@ -9,7 +9,7 @@ $ eval $PSTAMP
 $ PS1="\$(eval \$PSTAMP)"
 200601-024609-6fb4-jacob.marulitua/> date
 Mon Jun  1 02:48:24 WIB 2020
-200601-024824-04c8-jacob.marulitua/> gpg2 --list-keys
+200601-024824-04c8-jacob.marulitua/> fpf[K[K[Kgpg2 --list-=keys[K[K[K[K[Kkeys
 /home/fasilkom/mahasiswa/j/jacob.marulitua/.gnupg/pubring.gpg
 -------------------------------------------------------------
 pub   4096R/9DD4450E 2020-05-31 [expires: 2021-05-31]
